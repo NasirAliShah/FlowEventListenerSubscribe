@@ -1,0 +1,23 @@
+{
+  "name": "floweventlistenersubscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NasirAliShah/FlowEventListenerSubscribe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NasirAliShah/FlowEventListenerSubscribe/issues"
+  },
+  "homepage": "https://github.com/NasirAliShah/FlowEventListenerSubscribe#readme",
+  "dependencies": {
+    "@onflow/fcl": "^0.0.78",
+    "@onflow/types": "^0.0.6"
+  }
+}

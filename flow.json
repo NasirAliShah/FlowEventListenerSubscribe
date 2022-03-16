@@ -1,0 +1,57 @@
+{
+  "emulators": {
+    "default": {
+      "port": 3569,
+      "serviceAccount": "emulator-account"
+    }
+  },
+  "contracts": {
+    "NonFungibleToken": "./contracts/NonFungibleToken.cdc",
+    "MetadataViews": "./contracts/MetadataViews.cdc",
+    "ExampleNFT": "./contracts/ExampleNFT.cdc"
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "1c3dcc47e532b301b51efdd862e1cb5cd7a32d8d31976247568e1f301e6b651f"
+    },
+    "emulator-ExampleNFT": {
+      "address": "0x01cf0e2f2f715450",
+      "key": {
+        "type": "hex",
+        "hashAlgorithm": "SHA3_256",
+        "signatureAlgorithm": "ECDSA_secp256k1",
+        "privateKey": "698b1cf077d1517098c5770cdec552c3864edd197f64946862a27868a9d6c34b"
+      }
+    },
+    "emulator-NonFungibleToken": {
+      "address": "0x179b6b1cb6755e31",
+      "key": {
+        "type": "hex",
+        "hashAlgorithm": "SHA3_256",
+        "signatureAlgorithm": "ECDSA_secp256k1",
+        "privateKey": "698b1cf077d1517098c5770cdec552c3864edd197f64946862a27868a9d6c34b"
+      }
+    },
+    "emulator-User": {
+      "address": "0xf3fcd2c1a78f5eee",
+      "key": {
+        "type": "hex",
+        "hashAlgorithm": "SHA3_256",
+        "signatureAlgorithm": "ECDSA_secp256k1",
+        "privateKey": "698b1cf077d1517098c5770cdec552c3864edd197f64946862a27868a9d6c34b"
+      }
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "emulator-NonFungibleToken": ["NonFungibleToken", "MetadataViews"],
+      "emulator-ExampleNFT": ["ExampleNFT"]
+    }
+  }
+}
