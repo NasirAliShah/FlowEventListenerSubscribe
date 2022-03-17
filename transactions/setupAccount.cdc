@@ -12,7 +12,7 @@ transaction {
         log("Collection created for account")
 
         // create a public capability for the Collection
-        acct.link<&{NonFungibleToken.CollectionPublic}>(ExampleNFT.CollectionPublicPath, target: ExampleNFT.CollectionStoragePath)
+        acct.link<&{NonFungibleToken.CollectionPublic,ExampleNFT.ExampleNFTCollectionPublic}>(ExampleNFT.CollectionPublicPath, target: ExampleNFT.CollectionStoragePath)
         log("Capability created")
     }
 }

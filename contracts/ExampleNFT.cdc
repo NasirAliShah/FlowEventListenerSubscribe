@@ -12,7 +12,7 @@ pub contract ExampleNFT: NonFungibleToken {
     pub event ContractInitialized()
     pub event Withdraw(id: UInt64, from: Address?)
     pub event Deposit(id: UInt64, to: Address?)
-    pub event NFTMinted(id: UInt64,name: String,description: String,thumbnail: String,image : String)
+    pub event NFTMinted(id: UInt64, name: String, description: String, thumbnail: String, image : String)
 
     pub let CollectionStoragePath: StoragePath
     pub let CollectionPublicPath: PublicPath

@@ -39,12 +39,12 @@
       }
     },
     "emulator-User": {
-      "address": "0xf3fcd2c1a78f5eee",
+      "address": "0xe03daebed8ca0615",
       "key": {
         "type": "hex",
         "hashAlgorithm": "SHA3_256",
         "signatureAlgorithm": "ECDSA_secp256k1",
-        "privateKey": "698b1cf077d1517098c5770cdec552c3864edd197f64946862a27868a9d6c34b"
+        "privateKey": "df0476ff71d7cf9530cf1363028d9a27250262d6e3a4802429a3d232b4b4032c"
       }
     }
   },
