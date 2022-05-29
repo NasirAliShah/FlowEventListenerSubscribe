@@ -106,3 +106,4 @@ dist
 package-lock.json
 node_modules
 flowdb
+flow.json

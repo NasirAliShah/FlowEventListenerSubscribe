@@ -1,10 +1,10 @@
 const fcl = require("@onflow/fcl")
 fcl.config()
-    .put("accessNode.api", "http://localhost:8080")
+    .put("accessNode.api", "https://testnet.onflow.org")
 
 const doStuff = async () => {
     events = await fcl
-        .events("A.01cf0e2f2f715450.ExampleNFT.NFTMinted").subscribe(event => {
+        .events("A.7e60df042a9c0868.FlowToken.TokensWithdrawn").subscribe(event => {
             console.log(event);
         })
     // .send([

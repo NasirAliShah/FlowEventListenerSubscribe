@@ -13,12 +13,17 @@
   "networks": {
     "emulator": "127.0.0.1:3569",
     "mainnet": "access.mainnet.nodes.onflow.org:9000",
-    "testnet": "access.devnet.nodes.onflow.org:9000"
+    "testnet": "access.devnet.nodes.onflow.org:9000",
+    "stablecadence": "access-001.pentest1.nodes.onflow.org:9000"
   },
   "accounts": {
     "emulator-account": {
       "address": "f8d6e0586b0a20c7",
       "key": "1c3dcc47e532b301b51efdd862e1cb5cd7a32d8d31976247568e1f301e6b651f"
+    },
+    "stable": {
+      "address": "0x1f1e93703042de12",
+      "key": "8c5d05e1f239e90d30e81b360c7ddae1104ab3019bd84eb944630ba8033b12f7"
     },
     "emulator-ExampleNFT": {
       "address": "0x01cf0e2f2f715450",
